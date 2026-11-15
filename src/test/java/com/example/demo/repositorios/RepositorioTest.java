@@ -1,12 +1,16 @@
 package com.example.demo.repositorios;
 
-import com.example.demo.modelos.Produto;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+
+import java.time.LocalDate;
+import java.util.List;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.data.jpa.test.autoconfigure.DataJpaTest;
-import  static  org.junit.jupiter.api.Assertions.*;
-import java.time.LocalDate;
-import java.util.List;
+
+import com.example.demo.modelos.Produto;
 
 @DataJpaTest
 //não deixem eu esquecer

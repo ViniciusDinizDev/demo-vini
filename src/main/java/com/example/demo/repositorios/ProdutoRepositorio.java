@@ -1,12 +1,13 @@
 package com.example.demo.repositorios;
 
-import com.example.demo.modelos.Produto;
+import java.time.LocalDate;
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import java.time.LocalDate;
-import java.util.List;
+import com.example.demo.modelos.Produto;
 
 public interface ProdutoRepositorio extends JpaRepository<Produto,Long> {
 
